@@ -111,5 +111,5 @@ Pull requests are welcome. For major changes, please open an issue first.
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/your-username/phishing-detection-ml.git
+git clone https://github.com/clarice-dev/phishing-detection-ml.git
 cd phishing-detection-ml
