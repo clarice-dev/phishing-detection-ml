@@ -38,10 +38,17 @@ If using Colab, most libraries are pre-installed. Otherwise, install with:
 
 ```bash
 pip install pandas scikit-learn xgboost seaborn matplotlib
-
+```bash
 ---
 
+---
 ## 📊 Dataset
+
+- Source: [Kaggle - Phishing Website Detector](https://www.kaggle.com/datasets/eswarchandt/phishing-website-detector)
+- 11,000+ rows, 30 features
+- Target: `class` (converted from `-1, 1` to `0, 1`)
+
+---
 
 - Source: [Kaggle - Phishing Website Detector](https://www.kaggle.com/datasets/eswarchandt/phishing-website-detector)
 - 11,000+ rows, 30 features
