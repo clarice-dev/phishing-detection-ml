@@ -33,14 +33,6 @@ A ML model that predicts if a URL or email is a phishing attempt based on known 
   - xgboost
   - seaborn
   - matplotlib
-
-If using Colab, most libraries are pre-installed. Otherwise, install with:
-
-```bash
-pip install pandas scikit-learn xgboost seaborn matplotlib
-```bash
----
-
 ---
 ## 📊 Dataset
 
