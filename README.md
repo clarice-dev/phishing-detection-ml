@@ -22,6 +22,25 @@ A ML model that predicts if a URL or email is a phishing attempt based on known 
 
 ---
 
+## 🧑‍💻 Getting Started
+
+### 🔧 Requirements
+
+- Python 3.7+
+- Libraries:
+  - pandas
+  - scikit-learn
+  - xgboost
+  - seaborn
+  - matplotlib
+
+If using Colab, most libraries are pre-installed. Otherwise, install with:
+
+```bash
+pip install pandas scikit-learn xgboost seaborn matplotlib
+
+---
+
 ## 📊 Dataset
 
 - Source: [Kaggle - Phishing Website Detector](https://www.kaggle.com/datasets/eswarchandt/phishing-website-detector)
