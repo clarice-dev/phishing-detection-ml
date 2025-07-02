@@ -55,12 +55,6 @@ This model can be used as a foundational element in anti-phishing systems or bro
 
 ---
 
-- Source: [Kaggle - Phishing Website Detector](https://www.kaggle.com/datasets/eswarchandt/phishing-website-detector)
-- 11,000+ rows, 30 features
-- Target: `class` (converted from `-1, 1` to `0, 1`)
-
----
-
 ## 🔍 Features Used
 
 | Feature                        | Description                                     |
