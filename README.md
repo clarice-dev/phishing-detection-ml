@@ -13,6 +13,19 @@ A ML model that predicts if a URL or email is a phishing attempt based on known 
 
 ---
 
+## 🧠 Overview
+
+Phishing attacks remain one of the most common cybersecurity threats. This project trains a supervised machine learning model to detect phishing URLs using engineered features like:
+
+- URL length
+- Presence of special characters
+- HTTPS usage
+- Domain information (age, prefix, etc.)
+
+This model can be used as a foundational element in anti-phishing systems or browser extensions.
+
+---
+
 ## 📂 Files Included
 
 | File | Description |
@@ -48,6 +61,20 @@ A ML model that predicts if a URL or email is a phishing attempt based on known 
 
 ---
 
+## 🔍 Features Used
+
+| Feature                        | Description                                     |
+|-------------------------------|-------------------------------------------------|
+| URL Length                    | Total character count in the URL               |
+| Uses HTTPS                    | Whether the URL uses HTTPS protocol            |
+| Contains `@`, `//`, or `-`    | Common signs of phishing URLs                  |
+| Has IP Address                | If the domain is an IP instead of text         |
+| Subdomain Count               | Number of subdomains in the URL                |
+| URL Shortening Service Used   | Checks if known shortening service is used     |
+| Domain Age                    | Age of the domain (if WHOIS data is available) |
+
+---
+
 ## ⚙️ Model Comparison
 
 | Metric    | Random Forest | XGBoost |
@@ -68,6 +95,7 @@ A ML model that predicts if a URL or email is a phishing attempt based on known 
 
 ---
 
+
 ## 🤝 Contributing
 
 Pull requests are welcome. For major changes, please open an issue first.
@@ -77,3 +105,11 @@ Pull requests are welcome. For major changes, please open an issue first.
 ## 📜 License
 
 [MIT](LICENSE)
+
+## 🧪 How to Run
+
+### 1. Clone the Repository
+
+```bash
+git clone https://github.com/your-username/phishing-detection-ml.git
+cd phishing-detection-ml
